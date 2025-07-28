@@ -1,4 +1,4 @@
-## Hi, I'm Greg
+## 👋 Hi, I'm Greg
 
 I co-founded [SpecStory](https://specstory.com) in November 2024 because I believe **intent is the new source code.** 
 
@@ -6,7 +6,7 @@ Read my white paper [Beyond Code-Centric](https://get.specstory.com/beyond-code-
 
 Before that I was the Chief Product Officer at Pluralsight. And previously was at GitHub, Dropbox and Google.
 
-[LinkedIn](https://www.linkedin.com/in/gregceccarelli/) • [X/Twitter](https://x.com/gregce10) • [Substack](https://substack.com/@gregceccarelli)
+Find me on → [LinkedIn](https://www.linkedin.com/in/gregceccarelli/) • [X/Twitter](https://x.com/gregce10) • [Substack](https://substack.com/@gregceccarelli)
 
 ### 💼 What I Do
 
@@ -25,7 +25,7 @@ Co-authored an [O'Reilly Book](https://www.oreilly.com/library/view/ai-essential
 ### 🛠 Technologies
 I work primarily with TypeScript and Python for most development projects, Swift for mobile applications, SQL for data management, and historically R for statistical analysis and data science workflows.
 
-Most of the code I write these days is w/ Claude Code and Cursor. I save and build contextual knowledge representations with [SpecStory Extensions](https://get.specstory.com/extension).
+Most of the code I write these days is done w/ [Claude Code](https://www.anthropic.com/claude-code), [Bearclaude](https://get.specstory.com/bearclaude) or [Cursor](https://cursor.com/). I save my AI chats and build contextual knowledge representations with [SpecStory Extensions](https://get.specstory.com/extension).
 
 ### ✨ A Few of my Favorite Things
 
