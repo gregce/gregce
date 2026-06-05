@@ -19,36 +19,7 @@ Find me on → [LinkedIn](https://www.linkedin.com/in/gregceccarelli/) • [X/Tw
 [AI Essentials For Tech Executives](https://ai-execs.com) ← Read here free!
 
 ### 🛠 Technologies
-I work primarily with TypeScript and Go. Swift for mobile applications, SQL for data management, and historically R and Python for statistical analysis and data science workflows.
+I work primarily with TypeScript, Go and Rust. Swift for mobile/macOS applications, SQL for data, and historically R and Python for statistical analysis and data science workflows.
 
 Most of the code I write these days is done w/ [Claude Code](https://www.anthropic.com/claude-code) and [Codex](https://github.com/openai/codex). I save my AI chats and build contextual knowledge representations with the OSS [SpecStory Extensions]([https://get.specstory.com/extension](https://github.com/specstoryai/getspecstory/)).
 
-### ✨ A Few of my Favorite Things
-
-```
-o__         __o        ,__o        __o           __o
- ,>/_       -\<,      _-\_<,       _`\<,_       _ \<_
-(*)`(*).....O/ O.....(*)/'(*).....(*)/ (*).....(_)/(_)
-```
-
-```                                                                                                                                                                           
-           *                                                                                        
-           *                                                                                        
-       *   =*  *                                                                                    
-       +  +-+  +                                                                                    
-  **  +-+ ===  ==  **                                                                               
-  ++  +== =*= +==  ++    **#***   *******      *********         ********   *******       *******   
-  =-  +*+ +*+ +*+  ==     *%###*   #%%%%        ####*##*      %@@%%#**##*    ##*##    #@%%#**##%#   
-  +*+***+****+***+*++     *#*###* #%@@@@#      *#**##%%%    #%%%#*    *#     *#%%*  *%%##*    *%    
-  ******************+    *##*%%%%*@@%@@@%     *##*  %@@@%   ###**            #%@@#  #*###           
-    ***************     *#%* #@@@@@% %%%%#   *%%#****@@@%# **####   *%@@@%*  %@@@#  #%%@%           
-      ++*********      *%%#   @@@@#   #####  %@@@@   #%%%#* #%%@@*   #%%%#*  #%%%*  %@@@@*       *  
-        +******       *%@@    *%%#    *#%%%# #@@%     *##%%# #@@@@#  #%###*  ###%#   #%%%#*   #%%   
-         *****       *@@@@@*   *#     #%%%@@#  %#    *#%%%@@#  *#%%#####%%* ##%%%@*     *#%%@%*     
-          **+                                                            #*                         
-          **+        @@@@@@@@ @@@   @@@@  @  @@@@@@@ @@@ @@@ @@ @@@  @@@                            
-           +          @@ @@@@ @@    @@@@ @@@ @@ @@@@ @@  @@@ @@ @@@ @@@@                            
-           *
-```
-                                                                                                    
-                                                                                                    
