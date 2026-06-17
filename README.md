@@ -60,11 +60,11 @@ Open source I create and maintain: local-first tooling for the agentic era.
 ## 🎓 Teaching
 
 > ### Hardcore Agentic Engineering: *for builders who ship*
-> A new live course on **[Maven](https://maven.com/specstory/hardcore-agentic-engineering-for-builders-who-ship)**. Driving agents is the engineering skill with the highest ceiling right now, and the unit of review is a goal, not a diff. I teach it the way we practice it at SpecStory: you build a real agentic harness, run it on your own repo, and walk out *proving* your agent's work before you push.
+> A new live course on **[Maven](https://get.specstory.com/agentic-engineering)**. Driving agents is the engineering skill with the highest ceiling right now, and the unit of review is a goal, not a diff. I teach it the way we practice it at SpecStory: you build a real agentic harness, run it on your own repo, and walk out *proving* your agent's work before you push.
 >
 > **Three weeks** · **your repo** · live in **Stoa** (not Zoom) · ends with a **Demo Day** where you ship and prove it.
 >
-> **[→ Join the cohort on Maven](https://maven.com/specstory/hardcore-agentic-engineering-for-builders-who-ship)**
+> **[→ Join the cohort on Maven](https://get.specstory.com/agentic-engineering)**
 
 ---
 
