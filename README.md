@@ -23,7 +23,7 @@
 
 `Local-first` · `Human-centric` · `Agentic engineering` · `Developer tools`
 
-**Jump to:** [Building](#-building) · [Teaching](#-teaching) · [Writing](#-writing) · [Books](#-books)
+**Jump to:** [Building](#-building) · [Course](#-course) · [Writing](#-writing) · [Books](#-books)
 
 </td>
 <td valign="middle" align="center">
@@ -57,7 +57,7 @@ Open source I create and maintain: local-first tooling for the agentic era.
 
 ---
 
-## 🎓 Teaching
+## 🎓 Course
 
 > ### Hardcore Agentic Engineering: *for builders who ship*
 > A new live course on **[Maven](https://get.specstory.com/agentic-engineering)**. Driving agents is the engineering skill with the highest ceiling right now, and the unit of review is a goal, not a diff. I teach it the way we practice it at SpecStory: you build a real agentic harness, run it on your own repo, and walk out *proving* your agent's work before you push.
