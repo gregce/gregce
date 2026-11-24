@@ -4,7 +4,7 @@
 
 # 👋 Hi, I'm Greg
 
-**Co-founder of [SpecStory](https://specstory.com)** · ex-CPO at Pluralsight · Data at GitHub, Dropbox & Google
+**Co-founder of [SpecStory](https://specstory.com)**, building [RunStory](https://specstory.com/runstory) · ex-CPO at Pluralsight · Data at GitHub, Dropbox & Google
 
 *Intent is the new source code. I build the tools that turn it into shipped product.*
 
@@ -21,9 +21,9 @@
 [![X](https://img.shields.io/badge/@gregce10-2b2b2b?style=flat-square&logo=x&logoColor=white)](https://x.com/gregce10)
 [![Substack](https://img.shields.io/badge/Substack-2b2b2b?style=flat-square&logo=substack&logoColor=FF6719)](https://substack.com/@gregceccarelli)
 
-`Local-first` · `Human-centric` · `Agentic engineering` · `Developer tools`
+`Local-first` · `Human-centric` · `Agentic engineering` · `Runtime verification` · `Developer tools`
 
-**Jump to:** [Building](#-building) · [Course](#-course) · [Writing](#-writing) · [Books](#-books)
+**Jump to:** [RunStory](#-runstory) · [Building](#-building) · [Course](#-course) · [Writing](#-writing) · [Books](#-books)
 
 </td>
 <td valign="middle" align="center">
@@ -36,9 +36,25 @@
 
 ---
 
-I co-founded [SpecStory](https://specstory.com) in November 2024 because I believe **intent is the new source code**. Software's bottleneck has moved from how fast we type to how clearly we think; my white paper [Beyond Code-Centric](https://www.gregceccarelli.com/writing/beyond-code-centric) lays out the case. Today we're building [Stoa](https://withstoa.com), the local-first, human-centric multiplayer room where product teams turn intent into shipped product. I also advise AI and developer-tool companies across [Tola Capital's portfolio](https://tolacapital.com).
+I co-founded [SpecStory](https://specstory.com) in November 2024 because I believe **intent is the new source code**. Software's bottleneck has moved from how fast we type to how clearly we think; my white paper [Beyond Code-Centric](https://www.gregceccarelli.com/writing/beyond-code-centric) lays out the case. Today we're building [RunStory](https://specstory.com/runstory), an AI QA agent that runs your software and checks that it does what you meant. I also advise AI and developer-tool companies across [Tola Capital's portfolio](https://tolacapital.com).
 
-Most of the code I write these days runs through [Claude Code](https://www.anthropic.com/claude-code) and [Codex](https://github.com/openai/codex). I save those AI chats and turn them into reusable, contextual knowledge with the OSS [SpecStory extensions](https://github.com/specstoryai/getspecstory/) below.
+Most of the code I write these days runs through [Claude Code](https://www.anthropic.com/claude-code) and [Codex](https://github.com/openai/codex). I save those sessions and turn them into reusable, contextual knowledge with [SpecStory](https://github.com/specstoryai/getspecstory), and I check what the agents built with [RunStory](https://github.com/specstoryai/getrunstory).
+
+---
+
+## 🧪 RunStory
+
+> ### Your agent says it's done. RunStory checks.
+> What we're building at [SpecStory](https://specstory.com) now: an AI QA agent, in beta. It builds and starts your web app or CLI from a commit, uses it the way a customer would, and hands each failure it can repeat back to your coding agent.
+>
+> Paste this into your coding agent. Your first 10 checks are free.
+>
+> ```text
+> Set up runstory for me. Fetch https://runstory.specstory.com/agents.md and follow it.
+> Ask me before spending money. I'll handle sign-in and secrets myself.
+> ```
+>
+> **[→ Get RunStory](https://github.com/specstoryai/getrunstory)** · [What it does](https://specstory.com/runstory) · [How it compares](https://specstory.com/runstory/compare)
 
 ---
 
@@ -48,12 +64,10 @@ Open source I create and maintain: local-first tooling for the agentic era.
 
 | Project | Stars | Lang | What it does |
 |:--------|:-----:|:----:|:-------------|
-| [**getspecstory**](https://github.com/specstoryai/getspecstory) | [![Stars](https://img.shields.io/badge/1.3k-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/specstoryai/getspecstory/stargazers) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Local-first extensions for your AI IDE or terminal agent. Save every chat and sync your conversations to the cloud. |
-| [**lore**](https://github.com/specstoryai/lore) | [![Stars](https://img.shields.io/badge/0-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/specstoryai/lore/stargazers) | ![JS](https://img.shields.io/badge/-JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Your SpecStory sessions are your lore. Forge them into reusable skills your agents can draw on. |
-| [**tortie**](https://github.com/gregce/tortie) | [![Stars](https://img.shields.io/badge/19-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/gregce/tortie/stargazers) | ![TypeScript](https://img.shields.io/badge/-TS-3178C6?style=flat-square&logo=typescript&logoColor=white) | A calm agent multiplexer with familiar IDE features. Keep coding-agent sessions alive across projects in one window. → [tortie.sh](https://tortie.sh) |
-| [**unmint**](https://github.com/gregce/unmint) | [![Stars](https://img.shields.io/badge/98-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/gregce/unmint/stargazers) | ![TypeScript](https://img.shields.io/badge/-TS-3178C6?style=flat-square&logo=typescript&logoColor=white) | Beautiful Mintlify-style docs, minus the price tag. An open-source alternative. → [unmint.dev](https://unmint.dev) |
-| [**deadreckon**](https://github.com/gregce/deadreckon) | [![Stars](https://img.shields.io/badge/10-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/gregce/deadreckon/stargazers) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | Run your coding agent unattended, and trust the result. Isolated sandbox, durable per-turn state, and a watchdog gate the agent can't fool. → [deadreckon.sh](https://deadreckon.sh) |
-| [**rookery**](https://github.com/rookkeeper/rook) | [![Stars](https://img.shields.io/badge/14-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/rookkeeper/rook/stargazers) | ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white) | "Rook," a local [ACP](https://agentclientprotocol.com)-oriented agent runtime with web, Obsidian, macOS menu-bar, and location-aware iPhone clients. |
+| [**getspecstory**](https://github.com/specstoryai/getspecstory) | [![Stars](https://img.shields.io/badge/1.4k-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/specstoryai/getspecstory/stargazers) | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) | Local-first CLI and extensions for your AI IDE or terminal agent. Save every chat and sync your conversations to the cloud. Includes [Lore](https://github.com/specstoryai/getspecstory/tree/main/lore), which forges your sessions into reusable skills your agents can draw on. |
+| [**tortie**](https://github.com/gregce/tortie) | [![Stars](https://img.shields.io/badge/97-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/gregce/tortie/stargazers) | ![TypeScript](https://img.shields.io/badge/-TS-3178C6?style=flat-square&logo=typescript&logoColor=white) | A calm agent multiplexer with familiar IDE features. Keep coding-agent sessions alive across projects in one window. → [tortie.sh](https://tortie.sh) |
+| [**unmint**](https://github.com/gregce/unmint) | [![Stars](https://img.shields.io/badge/115-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/gregce/unmint/stargazers) | ![TypeScript](https://img.shields.io/badge/-TS-3178C6?style=flat-square&logo=typescript&logoColor=white) | Beautiful Mintlify-style docs, minus the price tag. An open-source alternative. → [unmint.dev](https://unmint.dev) |
+| [**deadreckon**](https://github.com/gregce/deadreckon) | [![Stars](https://img.shields.io/badge/15-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/gregce/deadreckon/stargazers) | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) | Run your coding agent unattended, and trust the result. Isolated sandbox, durable per-turn state, and a watchdog gate the agent can't fool. → [deadreckon.sh](https://deadreckon.sh) |
 | [**newsmap**](https://github.com/gregce/newsmap-rss) | [![Stars](https://img.shields.io/badge/3-f0b400?style=flat-square&logo=github&logoColor=white)](https://github.com/gregce/newsmap-rss/stargazers) | ![JS](https://img.shields.io/badge/-JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | A NewsMap-style news treemap driven by your own custom RSS/Atom feeds. → [newsmap.gregceccarelli.com](https://newsmap.gregceccarelli.com) |
 
 ---
@@ -63,7 +77,7 @@ Open source I create and maintain: local-first tooling for the agentic era.
 > ### Hardcore Agentic Engineering: *for builders who ship*
 > A new live course on **[Maven](https://get.specstory.com/agentic-engineering)**. Driving agents is the engineering skill with the highest ceiling right now, and the unit of review is a goal, not a diff. I teach it the way we practice it at SpecStory: you build a real agentic harness, run it on your own repo, and walk out *proving* your agent's work before you push.
 >
-> **Three weeks** · **your repo** · live in **Stoa** (not Zoom) · ends with a **Demo Day** where you ship and prove it.
+> **Three weeks** · **your repo** · ends with a **Demo Day** where you ship and prove it.
 >
 > **[→ Join the cohort on Maven](https://get.specstory.com/agentic-engineering)**
 
@@ -75,6 +89,7 @@ I write weekly [**Meditations on Tech**](https://www.meditationsontech.com/) on 
 
 | Date | Piece | What it covers |
 |:-----|:------|:---------------|
+| Oct 2026 | [**How to Estimate Agent Work From Its Logs**](https://www.gregceccarelli.com/writing/how-to-estimate-agent-work-from-its-logs) | Timing each stage of a Claude Code workflow from its transcripts, so an agent can estimate the next piece of work in hours. |
 | May 2026 | [**Goal Engineering**](https://www.gregceccarelli.com/goal-engineering) | Getting agents to reliably hit the target you actually meant. |
 | Jul 2025 | [**Building a Product Video with AI**](https://www.gregceccarelli.com/writing/build-product-video-with-ai) | A 39-second SpecStory product video, built with Remotion and natural-language iteration. |
 | Jun 2025 | [**Beyond Code-Centric**](https://www.gregceccarelli.com/writing/beyond-code-centric) | Why specification, not typing speed, is now the bottleneck in software. |

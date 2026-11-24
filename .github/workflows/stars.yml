@@ -1,0 +1,35 @@
+# Keeps the star counts in README.md current. Once a day it reads each listed
+# repository's count from GitHub and commits README.md when a number changed.
+# Run it by hand from the Actions tab at any time.
+name: stars
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: stars
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Read the star counts
+        run: node .github/scripts/update-stars.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Commit what changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- README.md; then
+            echo "The star counts are current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update star counts"
+          git push
